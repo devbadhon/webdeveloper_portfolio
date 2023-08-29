@@ -19,13 +19,24 @@ body {
     padding: 15px 35px;
 }
 
+.btn-contact {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 35px;
+    margin-left: 20px;
+}
+
 /* nav related style */
 nav {
     display: flex;
     /* duitar majkhane jayga baranor jonno  */
-   justify-content: space-between;
-   align-items: center;
-     
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
 }
 
 nav>ul {
@@ -47,4 +58,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related style */
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pickture{
+    width: 400px;
 }
