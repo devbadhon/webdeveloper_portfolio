@@ -1,0 +1,50 @@
+/* common shared style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common primary color */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    /* duitar majkhane jayga baranor jonno  */
+   justify-content: space-between;
+   align-items: center;
+     
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
