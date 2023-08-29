@@ -29,14 +29,14 @@ body {
     margin-left: 20px;
 }
 
-.section-title {
+.about-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-des {
+.about-des {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -117,12 +117,42 @@ nav a {
 }
 
 /* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
-
 .about {
     padding: 130px;
     margin: 130px 0px;
     border-radius: 10px;
     background: #FFF8F3;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-des {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.info-title {
+    color:#474747;
+    font-size: 20px;
+    margin-top: 0px;
+
+}
+
+#what-i-do-des{
+    padding: 30px 150px;
 }
